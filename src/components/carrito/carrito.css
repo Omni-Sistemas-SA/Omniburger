@@ -1,0 +1,106 @@
+.carrito__icono {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.carrito__icono__contador {
+    background: rgb(35, 28, 25);
+
+}
+
+.carrito__offcanvas {
+    background: rgba(230, 213, 184, 90%);
+    color: rgb(35, 28, 25);;
+    font-size: 1.2rem;
+    height: 100vh;
+    width: 35vw;
+    right: 0;
+    top: 0;
+    transform: translateX(100%);
+}
+
+.carrito__offcanvas__cantidad {
+    display: flex;
+    justify-content: center;
+}
+
+.carrito__offcanvas__cantidad__boton {
+    color: #fdfdfd;
+    font-weight: bold;
+    background-color: rgb(228, 88, 38);
+    border: none;
+}
+
+.carrito__offcanvas__cantidad__input {
+    width: 20%;
+}
+.carrito__offcanvas__eliminar{
+    background: none;
+    border: none;
+}
+.carrito__offcanvas__eliminar__icono{
+    width: 1.2rem;
+}
+.carrito__offcanvas__footer {
+    color: rgb(230, 213, 184);
+    background: rgb(74, 57, 51);
+    height: 27%;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.carrito__offcanvas__footer__boton {
+    font-size: 1.4rem;
+    color: #fdfdfd;
+    font-weight: bold;
+    background-color: rgb(228, 88, 38);
+    border: none;
+}
+
+.carrito__offcanvas__footer__limpiar {
+    color: rgb(230, 213, 184);
+    display: flex;
+    text-decoration: none;
+    align-items: baseline;
+}
+
+.carrito__offcanvas__footer__limpiar:hover {
+    color: rgb(230, 213, 184);
+    font-weight: bold;
+}
+
+.carrito__offcanvas__footer__limpiar__texto {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    margin-right: auto;
+    padding-top: 0.5em;
+}
+
+.carrito__offcanvas__footer__limpiar__icono {
+    width: 1.3rem;
+    margin-left: auto;
+}
+
+.carrito__offcanvas__footer__tabla {
+    width: 90%;
+}
+
+.carrito__offcanvas__footer__tabla__column1 {
+    text-align: left;
+}
+
+.carrito__offcanvas__footer__tabla__column2 {
+    text-align: right;
+}
+
+.carrito__offcanvas__header {
+    background: rgb(74, 57, 51);
+    color: rgb(230, 213, 184);
+}
+.carrito__offcanvas__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
