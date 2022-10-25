@@ -1,0 +1,9 @@
+.pages{
+    background: rgb(230, 213, 184, 50%);
+    color: rgb(35, 28, 25);
+}
+.pages__titulo{
+    background: rgb(230, 213, 184);
+    height: 10vh;
+    padding-top: 1vh ;
+}
