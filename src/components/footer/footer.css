@@ -1,0 +1,19 @@
+.footer{
+    align-items: center;
+    background-color: rgb(35, 28, 25);
+    color: rgb(230, 213, 184);
+    display: flex;
+    height: 15vh;
+    justify-content: space-evenly;
+}
+.footer__logo{
+    height: 80%;
+}
+.footer__logo__imagen{
+    height: 100%;
+    margin-right: 1rem;
+}
+.footer__contacto__imagen{
+    margin-left: 1rem;
+    height: 2rem;
+}
