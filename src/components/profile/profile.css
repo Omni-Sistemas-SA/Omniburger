@@ -1,0 +1,12 @@
+.profile__menu{
+    background-color:rgba(35, 28, 25, 80%);
+    width: 100%;
+}
+.profile__item{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.profile__item:active{
+    
+    background:rgb(148, 87, 64);
+}
