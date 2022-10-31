@@ -1,0 +1,99 @@
+[
+    {
+        "id": "1",
+        "urlImagen": "./img/productos/mercurio.png",
+        "nombre": "Hamburguesa Mercurio",
+        "descripcion": "S150 Gr de carne mixta enrollada en queso chédar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "2",
+        "urlImagen": "./img/productos/venus.png",
+        "nombre": "Hamburguesa Venus",
+        "descripcion": "S300 Gr de carne vegana, queso chédar, verduras, pan artesanal, Guiso (Cebolla y tomate, Salsas de la casa",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "3",
+        "urlImagen": "./img/productos/tierra.png",
+        "nombre": "Hamburguesa Tierra",
+        "descripcion": "S300 Gr de carne de res, queso chédar, pan artesanal, verduras, cebolla caramelizada con champiñones, salsas de la casa",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "4",
+        "urlImagen": "./img/productos/marte.png",
+        "nombre": "Hamburguesa Marte",
+        "descripcion": "S150 Gr de carne mixta enrollada en queso chedar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "5",
+        "urlImagen": "./img/productos/jupiter.png",
+        "nombre": "Hamburguesa Jupiter",
+        "descripcion": "S170 gr de carne de res, queso mozzarella, pan de ajonjolí, verduras, salsas de la casa",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "6",
+        "urlImagen": "./img/productos/saturno.png",
+        "nombre": "Hamburguesa Saturno",
+        "descripcion": "S170 Gr de carne de res, verduras (cebolla, tomates, pepinillos dulces), pan de ajonjolí, salsas de la casa",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "7",
+        "urlImagen": "./img/productos/urano.png",
+        "nombre": "Hamburguesa Urano",
+        "descripcion": "S150 Gr de carne mixta (cerdo, res), verduras, pan de ajonjolí, pepinillos, hogado, salsas de la casa",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "8",
+        "urlImagen": "./img/productos/neptuno.png",
+        "nombre": "Hamburguesa Neptuno",
+        "descripcion": "S150 Gr de carne de res, queso chédar, verduras -pan de ajonjolí, tocineta, salsas de la casa",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "9",
+        "urlImagen": "./img/productos/pluton.png",
+        "nombre": "Hamburguesa Pluton",
+        "descripcion": "S80 Gr de carne mixta enrollada en queso chedar con cebolla caramelizada, verduras, pan con ajonjoli, tostones de plátano. Salsas de la casa",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "10",
+        "urlImagen": "./img/productos/agua.png",
+        "nombre": "Agua Mineral",
+        "descripcion": "Botella de agua mineral de 600 ml",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "11",
+        "urlImagen": "./img/productos/sodaKola.png",
+        "nombre": "Soda Kola",
+        "descripcion": "Botella de refresco sabor a kola de 600 ml",
+        "precio": "2.99",
+        "cantidad": 1
+    },
+    {
+        "id": "12",
+        "urlImagen": "./img/productos/sodaNaranja.png",
+        "nombre": "Soda Naranja",
+        "descripcion": "Botella de refresco sabor a Naranja de 600 ml",
+        "precio": "2.99",
+        "cantidad": 1
+    }
+]
+
