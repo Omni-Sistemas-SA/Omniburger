@@ -16,7 +16,7 @@ const Carrusel = () => {
                         <img src="./img/01.png" className="d-block w-100 carrusel__imagen" alt="baner 1" />
                     </div>
                     <div className="carousel-item">
-                        <img src="./img/02.jpg" className="d-block w-100 carrusel__imagen" alt="baner 2" />
+                        <img src="./img/02.png" className="d-block w-100 carrusel__imagen" alt="baner 2" />
                     </div>
                     <div className="carousel-item">
                         <img src="./img/03.png" className="d-block w-100 carrusel__imagen" alt="baner 3" />
