@@ -23,6 +23,7 @@ const Card = (props) => {
                     );
                     localStorage.setItem('numProd',lista.length)
                     // console.log(JSON.parse(localStorage.getItem("lista")));
+                    window.location.reload();
                 }}>
                     <span className='glyphicon .glyphicon-shopping-cart'></span>Añadir al Carrito
                 </button>
