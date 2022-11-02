@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import CarritoCantidad from "./CarritoCantidad";
 
 const CarritoLista = () => {
-    let productos = JSON.parse(localStorage.getItem("lista"));
-    if(productos == null){
-        productos = []
+    let productosCarrito = JSON.parse(localStorage.getItem("lista"));
+    if(productosCarrito == null){
+        productosCarrito = []
     }
+    const [productos, setProductos] = useState(productosCarrito);
     
+    const eliminarProducto = (idp)=>{
+        const newListaProductosCarrito = productos.filter(
+            (prod) => (prod.id !== idp)
+        );
+        setProductos(newListaProductosCarrito);
+        localStorage.setItem("lista",JSON.stringify(newListaProductosCarrito));
+    }
+
     return (
         <table>
             <thead>
@@ -41,7 +50,7 @@ const CarritoLista = () => {
                                     <span>{producto.precio}</span>
                                 </td>
                                 <td>
-                                    <button className="carrito__offcanvas__eliminar">
+                                    <button className="carrito__offcanvas__eliminar" onClick={()=>eliminarProducto(producto.id)}>
                                         <img className="carrito__offcanvas__eliminar__icono" src="./img/iconos/eliminar-osc.svg" />
                                     </button>
                                 </td>
